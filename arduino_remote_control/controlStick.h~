@@ -1,0 +1,18 @@
+#ifndef __CONVERSION_H__
+#define __CONVERSION_H__
+
+
+
+
+class controlStick
+{
+    public:
+        controlStick(int xPin,int yPin, int bt);
+        unsigned char conversion();    
+    private:
+        int _xPin;  
+        int _yPin;
+        int _bt
+}
+
+#endif
